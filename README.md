@@ -40,8 +40,9 @@ We design and proposes the Context Broadcasting Median (CBM) module, specificall
 </p>
 RFAConv Module Enhances Model Convergence Speed. (a) The training loss decreases faster with the RFAConv module. (b) The validation loss is lower with the RFAConv module.
 
+
 <p align="center">
-    <img src="figures/Fig7(a).jpg" width="400" style="margin-right: 10px;">
-    <img src="figures/Fig7(b).jpg" width="400" style="margin-left: 10px;">
+    <img src="figures/Fig7(a).png" width="400" style="margin-right: 10px;">
+    <img src="figures/Fig7(b).png" width="400" style="margin-left: 10px;">
 </p>
 ROC Curves Before and After Adding the RFAConv Module. (a) ViT-B model ROC curves. (b) ViT-B with RFAConv module ROC curves.
