@@ -10,9 +10,10 @@ This repo contains the official **PyTorch** code for RFAConv-CBM-ViT .
 
 
 ### Key Features:
-- **Receptive-Field Attention Convolution (RFAConv)**: Enhances feature extraction by expanding the receptive field and applying a spatial attention mechanism.
-- **Context Broadcasting Median (CBM)**: Improves model robustness and training efficiency by using median pooling in attention maps, reducing the influence of noise and outliers.
-- **High Accuracy**: Demonstrated top-1 classification accuracy of 97.71% on the aluminum surface defect dataset, 99.25% on the X-SSD hot-rolled steel strip surface defect dataset, and 99.27% on the nut surface defect dataset.
+- This paper introduces the **Receptive-Field Attention Convolution (RFAConv)** module into the ViT model, re-placing standard convolution operations with a spatial attention mechanism. This allows the model to capture more comprehensive feature information. Experimental results show that applying this module to a full-sized ViT not only enhances the model's fitting ability but also sig-nificantly improves accuracy.
+- The paper designs and proposes the **Context Broad-casting Median (CBM)** module, specifically for metal surface defect detection. Extensive ablation experiments demonstrate the superior performance of this module in metal surface defect detection tasks.
+- By integrating the advantages of RFAConv and CBM, this paper proposes the **RFAConv-CBM-ViT** model. Comprehensive comparative experiments prove that this model outperforms all benchmark comparison models.
+
 
 ### Method 
 
@@ -34,6 +35,6 @@ We design and proposes the Context Broadcasting Median (CBM) module, specificall
 ### High accuracy and fast convergence
 
 <p align="center">
-    <img src="figures/Fig6(a).jpg" width="300" style="margin-right: 10px;">
-    <img src="figures/Fig6(b).jpg" width="300" style="margin-left: 10px;">
+    <img src="figures/Fig6(a).jpg" width="400" style="margin-right: 10px;">
+    <img src="figures/Fig6(b).jpg" width="400" style="margin-left: 10px;">
 </p>
