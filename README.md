@@ -78,8 +78,8 @@ Used in the paper：https://www.kaggle.com/datasets/wehaoreal/aluminum-profile-s
 
 * X-SSD hot-rolled steel strip:
 
-[https://captain-whu.github.io/AID/](https://www.kaggle.com/datasets/sayelabualigah/x-sdd)
+https://www.kaggle.com/datasets/sayelabualigah/x-sdd
 
 * nut:
 
-[http://www.escience.cn/people/JunweiHan/NWPU-RESISC45.html](https://uverse.rboflow.com/rocz/nutsqnfzt/dataset/2)
+https://uverse.rboflow.com/rocz/nutsqnfzt/dataset/2
