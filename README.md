@@ -4,3 +4,6 @@ This repo contains the official **PyTorch** code for RFAConv-CBM-ViT .
 
 ## Introduction
 
+<p align="center">
+    <img src="figures/Fig1.jpg" width= "600">
+</p>
