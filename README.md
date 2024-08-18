@@ -5,10 +5,11 @@ This repo contains the official **PyTorch** code for RFAConv-CBM-ViT .
 ## Introduction
 
 <p align="center">
-    <img src="figures/Fig1.png" width="400" style="margin-right: 10px;">
-    <img src="figures/Fig8.png" width="400" style="margin-left: 10px;">
+    <img src="figures/Fig1.jpg" width= "600">
 </p>
-
+<p align="center">
+    <img src="figures/Fig8.jpg" width= "600">
+</p>
 ### Key Features:
 - This paper introduces the **Receptive-Field Attention Convolution (RFAConv)** module into the ViT model, re-placing standard convolution operations with a spatial attention mechanism. This allows the model to capture more comprehensive feature information. Experimental results show that applying this module to a full-sized ViT not only enhances the model's fitting ability but also sig-nificantly improves accuracy.
 - The paper designs and proposes the **Context Broad-casting Median (CBM)** module, specifically for metal surface defect detection. Extensive ablation experiments demonstrate the superior performance of this module in metal surface defect detection tasks.
