@@ -18,6 +18,9 @@ In the metal manufacturing process, surface defect detection is crucial for main
 ### Method 
 
 #### RFAConvolution
+
 <p align="center">
-    <img src="figures/Fig3.jpg" width= "600">
+    <img src="figures/Fig2.jpg" width= "600">
 </p>
+
+RFA can be considered a lightweight, plug-and-play module, with its structure being a fixed convolutional com-bination. This paper posits that RFA relies on the assistance of convolution operations, while convolution operations also benefit from RFA to enhance performance. RFAConv can also learn attention maps by interacting with receptive-field feature information, thereby improving model performance.
