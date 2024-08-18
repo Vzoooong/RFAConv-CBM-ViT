@@ -24,9 +24,11 @@ This repo contains the official **PyTorch** code for RFAConv-CBM-ViT .
 
 RFA can be considered a lightweight, plug-and-play module, with its structure being a fixed convolutional com-bination. This paper posits that RFA relies on the assistance of convolution operations, while convolution operations also benefit from RFA to enhance performance. 
 
-#### RFAConvolution
+#### Context Broadcasting Median
 
 <p align="center">
     <img src="figures/Fig5.jpg" width= "600">
 </p>
 We design and proposes the Context Broadcasting Median (CBM) module, specifically for metal surface defect de-tection. Extensive ablation experiments demonstrate the superior performance of this module in metal surface defect detection tasks.
+
+### High accuracy and fast convergence
