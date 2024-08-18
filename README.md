@@ -55,3 +55,13 @@ RFAConv Module Enhances Model Convergence Speed. (a) The training loss decreases
 ROC Curves Before and After Adding the RFAConv Module. (a) ViT-B model ROC curves. (b) ViT-B with RFAConv module ROC curves.
 
 <br>
+
+## Dependencies
+
+- Python 3.8
+- PyTorch == 1.13.0
+- torchvision == 0.12.0
+- fvcore == 0.1.5
+- numpy
+- timm == 0.4.12
+- yacs
