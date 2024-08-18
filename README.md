@@ -23,7 +23,7 @@ This repo contains the official **PyTorch** code for RFAConv-CBM-ViT .
     <img src="figures/Fig2.jpg" width= "600">
 </p>
 
-RFA can be considered a lightweight, plug-and-play module, with its structure being a fixed convolutional com-bination. This paper posits that RFA relies on the assistance of convolution operations, while convolution operations also benefit from RFA to enhance performance. 
+RFA can be considered a lightweight, plug-and-play module, with its structure being a fixed convolutional com-bination. RFA relies on the assistance of convolution operations, while convolution operations also benefit from RFA to enhance performance.
 
 #### Context Broadcasting Median
 
@@ -38,3 +38,10 @@ We design and proposes the Context Broadcasting Median (CBM) module, specificall
     <img src="figures/Fig6(a).jpg" width="400" style="margin-right: 10px;">
     <img src="figures/Fig6(b).jpg" width="400" style="margin-left: 10px;">
 </p>
+RFAConv Module Enhances Model Convergence Speed. (a) The training loss decreases faster with the RFAConv module. (b) The validation loss is lower with the RFAConv module.
+
+<p align="center">
+    <img src="figures/Fig7(a).jpg" width="400" style="margin-right: 10px;">
+    <img src="figures/Fig7(b).jpg" width="400" style="margin-left: 10px;">
+</p>
+ROC Curves Before and After Adding the RFAConv Module. (a) ViT-B model ROC curves. (b) ViT-B with RFAConv module ROC curves.
