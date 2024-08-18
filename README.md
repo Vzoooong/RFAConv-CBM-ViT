@@ -8,7 +8,6 @@ This repo contains the official **PyTorch** code for RFAConv-CBM-ViT .
     <img src="figures/Fig1.jpg" width= "600">
 </p>
 
-In the metal manufacturing process, surface defect detection is crucial for maintaining product quality and production efficiency. Our proposed RFAConv-CBM-ViT model leverages advanced attention mechanisms to improve the focus on critical features and reduce the impact of outliers, leading to superior performance across multiple datasets.
 
 ### Key Features:
 - **Receptive-Field Attention Convolution (RFAConv)**: Enhances feature extraction by expanding the receptive field and applying a spatial attention mechanism.
@@ -23,4 +22,11 @@ In the metal manufacturing process, surface defect detection is crucial for main
     <img src="figures/Fig2.jpg" width= "600">
 </p>
 
-RFA can be considered a lightweight, plug-and-play module, with its structure being a fixed convolutional com-bination. This paper posits that RFA relies on the assistance of convolution operations, while convolution operations also benefit from RFA to enhance performance. RFAConv can also learn attention maps by interacting with receptive-field feature information, thereby improving model performance.
+RFA can be considered a lightweight, plug-and-play module, with its structure being a fixed convolutional com-bination. This paper posits that RFA relies on the assistance of convolution operations, while convolution operations also benefit from RFA to enhance performance. 
+
+#### RFAConvolution
+
+<p align="center">
+    <img src="figures/Fig5.jpg" width= "600">
+</p>
+We design and proposes the Context Broadcasting Median (CBM) module, specifically for metal surface defect de-tection. Extensive ablation experiments demonstrate the superior performance of this module in metal surface defect detection tasks.
