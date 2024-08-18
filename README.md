@@ -69,7 +69,7 @@ ROC Curves Before and After Adding the RFAConv Module. (a) ViT-B model ROC curve
 - yacs
 
 
-## Dependencies
+## Dataset
 
 * aluminum surface defect dataset:
 
