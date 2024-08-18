@@ -32,3 +32,8 @@ RFA can be considered a lightweight, plug-and-play module, with its structure be
 We design and proposes the Context Broadcasting Median (CBM) module, specifically for metal surface defect de-tection. Extensive ablation experiments demonstrate the superior performance of this module in metal surface defect detection tasks.
 
 ### High accuracy and fast convergence
+
+<p align="center">
+    <img src="figures/Fig6(a).jpg" width="300" style="margin-right: 10px;">
+    <img src="figures/Fig6(b).jpg" width="300" style="margin-left: 10px;">
+</p>
