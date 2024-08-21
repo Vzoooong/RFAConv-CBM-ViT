@@ -74,12 +74,12 @@ ROC Curves Before and After Adding the RFAConv Module. (a) ViT-B model ROC curve
 * aluminum surface defect dataset:
 
 original：https://tianchi.aliyun.com/dataset/140666<br>
-Used in the paper：https://www.kaggle.com/datasets/wehaoreal/aluminum-profile-surface-defects-data-set
+Used in the paper：[https://www.kaggle.com/datasets/wehaoreal/aluminum-profile-surface-defects-data-set](https://www.kaggle.com/datasets/weihaoreal/aluminum-profile-surface-defects-data-set)
 
 * X-SSD hot-rolled steel strip:
 
-https://www.kaggle.com/datasets/sayelabualigah/x-sdd
+[https://www.kaggle.com/datasets/sayelabualigah/x-sdd](https://www.kaggle.com/datasets/sayelabualigah/x-sdd)
 
 * nut:
 
-https://uverse.rboflow.com/rocz/nutsqnfzt/dataset/2
+[https://uverse.rboflow.com/rocz/nutsqnfzt/dataset/2](https://www.kaggle.com/datasets/weihaoreal/nut-surface-defect-dataset)
